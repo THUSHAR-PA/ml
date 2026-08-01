@@ -1,0 +1,32 @@
+classes
+
+ blueprint for how a object should look like 
+
+    Syntax: class class_name(camelcase):
+    eg: class Microwave:
+
+ //instantiation of classes 
+
+    variable_name: classname = classname()
+    eg: smeg: Microwave = Microwave()
+
+    : classname - type annotation  (optional)
+    variable_name is the instant of the class 
+    if we print this variable_name it will  provide a unique id point to the unique intance of the  class 
+
+//initializer 
+class Microwave:
+  def __init__(self,brand: str, powerrating: str) -> None:  //takes care of initializing the class 
+    self.brand = brand 
+    self.powerrating = powerrating 
+
+
+now when instaitlziing we need to provide some data
+    eg: smeg: Microwave = Microwave('Smeg','B')
+    now we can print the variable 
+    print(smeg)
+    print(smeg.brand)
+    print(smeg.powerrating)
+
+    this will produce the data we have provided 
+
