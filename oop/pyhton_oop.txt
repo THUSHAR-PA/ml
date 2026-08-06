@@ -30,3 +30,24 @@ now when instaitlziing we need to provide some data
 
     this will produce the data we have provided 
 
+//What is Self ??
+Actual instance of the class 
+makes sure all the data sticks to the correct instance 
+  you can change the name of self to anything 
+
+// Methods
+
+// Dunder Methods 
+
+  print(smeg+bosch) error 
+  but for this to work just create a dunder method inside the calss 
+  def __add__(self,other):
+    print(f"{self.brand}+{other.brand}")
+  now print(smeg+bosch) works 
+  other dunder methods 
+  __mul__
+  __str__ // important // useful for everyone
+  __reper__ // useful for developers 
+
+
+ 
